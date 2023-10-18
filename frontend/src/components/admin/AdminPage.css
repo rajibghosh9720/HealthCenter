@@ -1,0 +1,102 @@
+/* *{
+  font-family: "Georgia", serif;
+} */
+.admin-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90vh;
+}
+
+.admin-sidebar {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(252, 252, 252, 0.1);
+  margin-left: 20px;
+  text-align: center;
+  
+}
+
+.admin-sidebar h2 {
+
+  margin-bottom: 40px;
+  font-size: 24px;
+  color: #62b4d7; 
+}
+
+.admin-sections {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+
+}
+
+.admin-section {
+  margin-bottom: 20px;
+  flex-direction: row; 
+
+}
+
+.admin-section .admin-section-title {
+
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(208, 182, 17);
+}
+
+.admin-button-column {
+
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+.admin-buttons a {
+  text-decoration: none;
+  display: block;
+  background-color: #6a58cf;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.admin-buttons a:hover {
+  background-color: #4a3fa0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+.admin-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-image img {
+  max-width: 70%;
+  border-radius: 10px;
+}
+
+.admin-button {
+  text-decoration: none;
+  display: block;
+  background-color: #6a58cf;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+  width: 150px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.admin-button:hover {
+  background-color: #4a3fa0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}

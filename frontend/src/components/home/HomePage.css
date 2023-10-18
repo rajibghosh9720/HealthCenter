@@ -1,0 +1,56 @@
+.home-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.text-section {
+  color: white;
+  flex: 1;
+  padding-right: 20px;
+  text-align: center;
+}
+.text-section h1 {
+  font-size: 50px;
+  font-family: "Georgia", serif;
+  font-style: italic;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+label {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+}
+
+
+.connect-button {
+  background-color: #007bff; 
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.connect-button:hover {
+  background-color: #0056b3;
+}

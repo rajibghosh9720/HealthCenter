@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6a58cf;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.home-icon {
+  font-size: 30px;
+}
+.logo-text {
+  /* font-family: "Borel", cursive; */
+  font-size: 28px;
+  margin-left: 8px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  margin-left: 10px; 
+}
+
+.button:first-child {
+  margin-left: 0; 
+}
+
+.button:hover {
+  background-color: white;
+  color: #333;
+  border-color: #333;
+}

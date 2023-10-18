@@ -1,0 +1,112 @@
+.doctor-registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .doctor-form-container {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(243, 241, 241, 0.1);
+    margin-left: 40px;
+    
+  }
+  
+  .doctor-form-container h2 {
+    color: #f4f4f4;
+    /* font-family: "Lobster", cursive; */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .doctor-image-container img {
+    width: 70%;
+    height: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #14b1cd;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    align-self: center;
+    margin-top: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #61a1dc; 
+    color: #fff;
+  }
+  
+  .doctor-address-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 100px;
+    resize: none;
+  }
+  
+  .doctor-address-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .doctor-generated-id {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .doctor-success-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .doctor-success-container img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-success-container p {
+    font-size: 18px;
+    color: #28a745;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,344 @@
+[
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "doctorLicenseId",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "doctorName",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "doctorAddress",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "doctorSpecialization",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "doctorPhone",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256[]",
+				"name": "hospitalId",
+				"type": "uint256[]"
+			}
+		],
+		"name": "DoctorUpdated",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "doctorCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "hospitalCount",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_doctorLicenseId",
+				"type": "uint256"
+			}
+		],
+		"name": "isDoctorExists",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_hospitalId",
+				"type": "uint256"
+			}
+		],
+		"name": "isHospitalExists",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_doctorLicenseId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_doctorName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_doctorAddress",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_doctorSpecialization",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_doctorPhone",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "_hospitalId",
+				"type": "uint256[]"
+			}
+		],
+		"name": "reg_Doctor",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_hospitalId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_hospitalName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_contactNumber",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_hospitalAddress",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_hospitalSpec",
+				"type": "string"
+			}
+		],
+		"name": "reg_Hospital",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_hospitalId",
+				"type": "uint256"
+			}
+		],
+		"name": "retreiveHospitalDetails",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "hospitalId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "hospitalName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "contactNumber",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "hospitalAddress",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "hospitalSpec",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "regId",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_doctorLicenseId",
+				"type": "uint256"
+			}
+		],
+		"name": "retrieveDoctorDetails",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "doctorLicenseId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "doctorName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "doctorAddress",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "doctorSpecialization",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "doctorPhone",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "hospitalId",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "uint256",
+				"name": "D_regId",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_doctorLicenseId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_doctorName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_doctorAddress",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_doctorSpecialization",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_doctorPhone",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "_hospitalId",
+				"type": "uint256[]"
+			}
+		],
+		"name": "updateDoctor",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_hospitalId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_hospitalName",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_contactNumber",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_hospitalAddress",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_hospitalSpec",
+				"type": "string"
+			}
+		],
+		"name": "updateHospital",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
